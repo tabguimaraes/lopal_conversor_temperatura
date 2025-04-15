@@ -2,23 +2,24 @@ package br.dev.tiago.temperatura.model;
 
 public class Temperatura {
 	
-	double celsius = 0;
+	private double celsius;
 
-	public double getCelcius() {
+	public double getValorCelcius() {
 		return celsius;
 	}
 
-	public void setCelcius(double celsius) {
+	public void setValorCelcius(double celsius) {
 		this.celsius = celsius;
 	}
 	
 	public double converterParaKelvin() {
-		System.out.println("teste");
-		return celsius;
+		
+		return (celsius + 273.15);
+		
 	}
 	public double converterParaFahreinheit() {
-		System.out.println("teste");
-		return celsius;
+		
+		return (celsius * 9/5) + 32;
 	}
 
 }
