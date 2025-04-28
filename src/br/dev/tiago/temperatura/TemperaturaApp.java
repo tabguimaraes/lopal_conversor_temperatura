@@ -9,10 +9,6 @@ public class TemperaturaApp {
 
 		new TelaConversor().criarTelaConversor();
 
-//		new Temperatura().converterParaFahreinheit();
-
-//		System.out.println(new Temperatura().converterParaKelvin());
-
 	}
 
 }
